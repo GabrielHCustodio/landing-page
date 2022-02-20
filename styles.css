@@ -1,3 +1,5 @@
+/*Tags globais*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,12 @@
 body {
     background-color: rgb(238, 238, 238);
 }
+
+.clear {
+    clear: both;
+}
+
+/******/
 
 header {
     background-color: #ccc;
@@ -29,16 +37,74 @@ section {
     background-image: url(./images/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
+}
+
+section .container-text {
+    width: 40vw;
+    float: left;
+    margin: 35vh 100px;
+    padding: 10px;
 }
 
 section h2 {
     background-color: rgba(204, 204, 204, 0.3);
     color: white;
-    width: 40vw;
-    float: left;
-    margin: 35vh 100px;
-    padding: 10px;
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
+    padding: 20px;
+}
+
+section .container-inputs {
+    display: inline-block;
+    width: 500px;
+    background-color: rgba(204, 204, 204, 0.3);
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+section .container-inputs h3 {
+    margin-top: -30px;
+    margin-bottom: 40px;
+    text-align: center;
+
+    color: white;
+    font-size: 24px;
+}
+
+section .container-inputs .input label {
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+section .container-inputs input,
+section .container-inputs select {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+section .container-inputs p {
+    font-size: 16px;
+    color: white;
+}
+
+section .container-inputs button {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    margin-top: 40px;
+    margin-left: 150px;
+
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(47, 151, 47);
+
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
 }
