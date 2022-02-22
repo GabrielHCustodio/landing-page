@@ -149,13 +149,14 @@ header h1 {
     display: flex;
 
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
 .season-2 .boxes .box {
-    width: 270px;
-    height: 310px;
-    margin: 30px;
+    width: 230px;
+    height: 260px;
+    margin: 40px;
 
     flex-direction: row;
 }
@@ -178,10 +179,24 @@ header h1 {
     background-size: cover;
 }
 
+footer {
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
 /* Response */
 @media screen and (max-width: 1400px) {
-    section .container-text,
-    section .container-inputs {   
+    .season-1 .container-text,
+    .season-1 .container-inputs {   
         margin-left: 20px;
         margin-right: 20px;
     }
