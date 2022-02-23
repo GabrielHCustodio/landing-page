@@ -180,18 +180,29 @@ header h1 {
 }
 
 footer {
-    width: 100%;
-    
+    width: 100%;  
+    background-color: #ccc;
 }
 
+footer .redes , footer .contato {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
 
+footer .redes h4 , footer .contato h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
 
+footer .redes a , footer .contato a {
+    margin-left: 20px;
+}
 
-
-
-
-
-
+footer .contato h4 {
+    margin-top: 50px;
+}
 
 /* Response */
 @media screen and (max-width: 1400px) {
